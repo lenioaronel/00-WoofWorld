@@ -17,4 +17,4 @@ Contributing to the WoofWorld
 
 Note: You can rebuild this site as you like, but remember to keep it simple and useful.
 if you want to edit and add a release to your project, feel free to turn WoofWorld interactive with JS or other logical language of your preference.
-------------------
+
