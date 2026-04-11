@@ -66,8 +66,9 @@
 
 .primary-section{
   text-align: center;
-  padding: 20px 20px 100px 20px;
+  padding: 80px 0px 180px 0px;
   background-color: #702083;
+  margin: auto;
 }
 
  .hero-title{
@@ -103,6 +104,7 @@
   display: flex;
   justify-content: space-between;
   padding: 20px 40px 20px 40px;
+  margin: auto;
 }
 
 #range-number-puppies{
@@ -136,6 +138,59 @@
 #animal-save{
   font-weight: bold;
   color: #ffd1a1;
+}
+
+
+.section-service{
+  background-color: #f6f6f6;
+  padding: 80px 0px;
+  margin: auto;
+  max-width: auto;
+}
+
+#dog-and-humans, #woofWorld-works{
+  text-align: center;
+  padding: 10px;
+  color: #702083;
+} 
+
+#woofWorld-works{
+  padding-bottom: 20px; 
+}
+
+.function-service{
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  gap: 10px;
+  text-align: center;
+}
+
+#create-profile,
+#subtitle-perfect-connect,
+#subtitle-connection,
+#subtitle-community {
+  color: #702083;
+  padding-bottom: 15px;
+  font-size: 1.20rem;
+  font-weight: bold;
+}
+
+#description-profile,
+#connects-description,
+#chat-description,
+#woofWorld-community {
+  color: #702083;
+  padding-bottom: 20px;
+  font-size: 16px;
+}
+
+.section-service a{
+  text-decoration: none;
+  background-color: #f37e01;
+  color: #f6f6f6;
+  padding: 15px;
+  border-radius: 100px;
 }
 
 
