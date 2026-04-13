@@ -12,7 +12,7 @@
 --opacity-accent: #ffd1a1;
 }
 
-/* add flexbox and box model to align items inside the header */
+/*--------------------------------add flexbox and box model to align items inside the header----------------------------------*/
 
 .woofworld-logo{
   width: 150px;
@@ -47,7 +47,7 @@
 }
 
 
-/* Add color and style to primary navigation Bar*/
+/*-------------------------Add color and style to primary navigation Bar----------------------*/
 
  .nav-list a{ 
   color:var(--accent);
@@ -70,7 +70,7 @@
 }
 
 
-/* First Section - Hero */
+/*-----------------------------------First Section - Hero-----------------------------*/
 
 .primary-section{
   text-align: center;
@@ -104,7 +104,7 @@
   border-radius: 100px;
 } 
 
-/* A small banner about stat number and label range */
+/*-----------------------------------A small banner about stat number and label range----------------------------------*/
 
 .secondary-section {
   background-color:var(--accent);
@@ -204,7 +204,7 @@
   background-color: var(--accent);
 }
 
-/* CTA banner styling */
+/*---------------------------------------------CTA banner styling---------------------------*/
 
 .banner-container{
   display: flex;
@@ -255,11 +255,11 @@
   background-color:var(--accent);
 }
 
-/* content grid section */
+/*--------------------------------------content grid section-----------------------------*/
 
 .top-stories-container{
   padding: 100px 0px;
-  background-color:var(--light);
+  background-color:var(--primary);
 }
 
 .title-stories, 
@@ -267,7 +267,7 @@
   padding-bottom: 20px;
   text-align: center;
   font-weight: 600px;
-  color:var(--primary);
+  color:var(--light);
   font-size: 1.60rem;
 }
 
@@ -282,6 +282,7 @@
 
 .content-stories{
   padding: 10px 20px;
+  max-width: 1200px;
 }
 
 .content-stories h4{
@@ -291,9 +292,10 @@
  .stories-grid article{
   border-radius: 5px;
   height: 60vh;
-  background-color:var(--primary);
+  background-color:var(--light);
   margin: auto;
   max-width: 300px;
+  height: 420px;
   box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s ease; 
 }
@@ -309,7 +311,7 @@
 }
 
 .stories-grid p{
-  color:var(--light);
+  color:var(--primary);
   font-weight: 600px;
 }
 
@@ -325,9 +327,7 @@
   
 }
 
-
-
-/*  */
+/*----------------------------Network For dogs Lover section ---------------------*/
 
 .banner{
   position: relative; 
@@ -339,22 +339,27 @@
 
 #banner-text{
   position: absolute;
-  bottom: 60%;
+  bottom: 50%;
   left: 50%;
+  font-size: 40px;
+  font-weight: bold;
+  padding-bottom: 20px;
 }
 
 #banner-sub-text{
   position: absolute;
-  bottom: 40%;
+  top: 50%;
   left: 50%;
+  text-align: center;
+  padding-bottom: 20px;
 }
 
 .banner a{
   position: absolute;
-  bottom: 10%;
+  bottom: 25%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: #eca0ad;
+  background-color:var(--accent);
   padding: 15px 20px 15px 20px;
   color:var(--light);
   text-decoration: none;
@@ -366,17 +371,27 @@
 .banner p{
   transform: translate(-50%, -50%);
   font-size: 1.50em;
-  color:var(--light);
+  color:var(--accent);
   font-weight: 600px;
   font-family: inter;
 }
 
+/*------------------------------------------sport & events-------------------------- */
+
+.events{
+  padding: 80px
+}
+
 #sport-events{
-   padding: 15px 0px 15px 0px;
+  padding: 15px 0px 40px 0px;
   text-align: center;
   font-weight: 600px;
   color:var(--primary);
   font-size: 1.60rem;
+}
+
+.events img{
+  width: 100%;
 }
 
 .event-grid{
