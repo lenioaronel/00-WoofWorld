@@ -10,6 +10,7 @@
 --light:#F6F6F6;
 --hover-button: #FE8301a1;
 --opacity-accent: #ffd1a1;
+--footer-setting: #181113;
 }
 
 /*--------------------------------add flexbox and box model to align items inside the header----------------------------------*/
@@ -209,11 +210,14 @@
 .banner-container{
   display: flex;
   background-color:var(--primary);
+  border-bottom: 1px solid var(--light);
+  border-top: 1px solid var(--primary)
 }
 
 .hero-image{
   max-width: 50%;
   margin-right: 10px;
+  border-right: 1px solid var(--light);
 }
 
 .content-description{
@@ -271,13 +275,17 @@
   font-size: 1.60rem;
 }
 
+.title-stories{
+  font-size: 4.50rem;
+}
+
 .subtitle-stories{
   margin: auto;
 }
 
  .stories-grid img{
   width: 100%;
-  border-radius: 5px 0px;
+  border-radius: 5px 5px 0px 0px;
 }
 
 .content-stories{
@@ -290,7 +298,8 @@
 }
 
  .stories-grid article{
-  border-radius: 5px;
+  border-radius: 5px 5px 0px 0px;
+  border: 1px solid var(--light);
   height: 60vh;
   background-color:var(--light);
   margin: auto;
@@ -389,25 +398,67 @@
 }
 
 #sport-events{
-  padding: 0px 0px 20px 0px;
-  font-weight: 600px;
+  padding: 0px 15px;
+  font-weight: bold;
   color:var(--primary);
-  font-size: 1.60rem;
+  font-size: 4.60rem;
 }
 
 #sport-events-subtitle{
-  padding-bottom: 20px;
+  padding-bottom: 40px;
   
+}
+
+.events-grid{
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 20px;
+  padding-bottom: 40px;
+}
+
+.events-grid article{
+  border:1px solid var(--primary);
+  border-radius: 5px 5px 0px 0px;
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s ease;
+  max-width: 1200px;
+  min-width: 200px auto;
+  transition: 0,3s ease;
+}
+
+.events-grid article:hover{
+  transform: translateY(-0.30rem);
 }
 
 .events img{
   width: 100%;
+  border-radius: 5px 5px 0px 0px;
 }
 
-.event-grid{
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  gap: 10px;
-  padding: 15px;
+.events h4{
+  padding: 10px 15px 0px;
+  font-weight: 600px;
+  font-size: 1.20rem;
+  color:var(--accent);
 }
 
+.events p{
+  padding: 10px 15px;
+  color: var(--primary);
+  overflow: hidden;
+}
+
+.find-event{
+  display: flex;
+  justify-content: end;
+  text-align: center;
+}
+
+.search-heart-fill{
+  margin-left: 10px;
+}
+
+.important-info{
+  background-color:var(--footer-setting);
+  padding: 40px;
+}
