@@ -130,29 +130,29 @@
   color: var(--opacity-accent);
 }
 
-.section-service{
+.container-service{
   background-color:var(--light);
   padding: 80px 0px;
   margin: auto;
   max-width: auto;
 }
 
-#dog-and-humans, #woofWorld-works{
+.content-service-subtitle, .content-service-title{
   text-align: center;
   padding: 10px;
   color:var(--primary);
 } 
 
-#dog-and-humans{
+.content-service-subtitle{
   font-size: 16px;
 }
 
-#woofWorld-works{
+.content-service-title{
   padding-bottom: 20px;
   font-size: 4.50rem; 
 }
 
-.function-service{
+.container-card-service{
   display: flex;
   justify-content: space-between;
   margin: 20px;
@@ -162,24 +162,25 @@
 }
 
 
-#create-profile,
-#subtitle-perfect-connect,
-#subtitle-connection,
-#subtitle-community {
+.primary-content-title,
+.secondary-content-title,
+.thirthiary-content-title,
+.quaternary-content-title {
   color:var(--primary);
-  padding-bottom: 15px;
   font-size: 1.20rem;
   font-weight: bold;
 }
 
-#description-profile,
-#connects-description,
-#chat-description,
-#woofWorld-community {
+.primary-content-subtitle,
+.secondary-content-subtitle,
+.thirthiary-content-subtitle,
+.quaternary-content-subtitle {
   color:var(--primary);
-  padding-bottom: 20px;
+  padding: 20px;
   font-size: 16px;
   width: 270px;
+  border: 1px solid transparent;
+  overflow: hidden;
 }
 
 .community-subscription{
@@ -187,7 +188,7 @@
   justify-content: center;
 }
 
-.section-service a{
+.container-service a{
   text-decoration: none;
   background-color:var(--accent);
   color:var(--light);
