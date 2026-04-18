@@ -40,23 +40,31 @@
   height: 2.50rem;
   width: 5rem;
   border-radius: 100px;
-  background-color:var(--accent);
-  color:var(--light);
-  font-weight: bold;
+  background-color:var(--light);
+  color:var(--accent);
+  font-weight: 600;
+  font-size: 15px;
   border: none; 
   cursor: pointer;
+  font-family: "inter", sans-serif;
+  transition: 0.3s ease;
+}
+
+.btn-sign:hover{
+  background-color:var(--accent);
+  color:var(--light);
 }
 
 
 /*-------------------------Add color and style to primary navigation Bar----------------------*/
 
  .nav-list a{ 
-  color:var(--accent);
+  color:var(--light);
   text-decoration: none;
   font-family: "inter", sans-serif;
   font-size: 15px;
   transition: 0.2s;
-  font-weight: bold;;
+  font-weight: 600;
 }
 
 .nav-list a:hover{
@@ -81,16 +89,17 @@
 }
 
  .hero-title{
-  color:var(--accent);
+  color:var(--light);
   font-size: 4.90em;
   font-weight: bold;
   margin: 50px 40px 20px 40px;
+  font-family: "Nunito Sans"
 }
 
 .hero-subtitle{
   font-size: 18px;
   color:var(--light);
-  font-family: "IBM Plex Serif", serif;
+  font-family: "inter";
   margin-bottom: 50px;
 }
 
@@ -99,17 +108,23 @@
   color:var(--light);
   font-size: 16px;
   text-transform: uppercase;
-  font-weight: bold;
+  font-weight: 600;
   background-color:var(--accent);
   padding: 15px;
   border-radius: 100px;
+  font-family: "inter"
 } 
+
+.primary-section a:hover{
+  box-shadow: 0 4px 8px 0 rgb(254, 131, 1, 0.3) 
+}
 
 /*-----------------------------------A small banner about stat number and label range----------------------------------*/
 
 .secondary-section {
   background-color:var(--accent);
   font-size: 1.50rem;
+  font-family: "inter"
 }
 
 .available-puppies{
@@ -145,11 +160,13 @@
 
 .content-service-subtitle{
   font-size: 16px;
+  font-family: "inter"
 }
 
 .content-service-title{
   padding-bottom: 20px;
   font-size: 4.50rem; 
+  font-family: "Nunito Sans"
 }
 
 .container-card-service{
@@ -169,6 +186,7 @@
   color:var(--primary);
   font-size: 1.20rem;
   font-weight: bold;
+  font-family: "Nunito Sans"
 }
 
 .primary-content-subtitle,
@@ -181,6 +199,7 @@
   width: 270px;
   border: 1px solid transparent;
   overflow: hidden;
+  font-family: "inter"
 }
 
 .community-subscription{
@@ -194,7 +213,8 @@
   color:var(--light);
   padding: 15px;
   border-radius: 100px;
-  font-weight: bold;
+  font-weight: 600;
+  font-family: "inter"
 }
 
 
@@ -230,6 +250,7 @@
   font-size: 1.35em;
   text-transform: uppercase;
   margin: 20px;
+  font-family: "Nunito Sans"
 }
 
 .banner-container p{
@@ -244,7 +265,7 @@
   color:var(--accent);
   font-family: "inter", sans-serif;
   background-color:var(--light);
-  font-weight: bold;
+  font-weight: 600;
   border-radius: 3px;
   transition: 0.3s ease;
 }
@@ -271,17 +292,18 @@
 .subtitle-stories{
   padding-bottom: 20px;
   text-align: center;
-  font-weight: 600px;
   color:var(--light);
   font-size: 1.60rem;
 }
 
 .title-stories{
   font-size: 4.50rem;
+  font-family: "Nunito Sans"
 }
 
 .subtitle-stories{
   margin: auto;
+  font-family: "inter"
 }
 
  .stories-grid img{
@@ -318,12 +340,16 @@
   color:var(--accent);
   font-weight: 600px;
   font-size: 1.20rem;
+  font-family: "inter"
 }
 
 .stories-grid p{
   color:var(--primary);
   font-weight: 600px;
+  font-family: "inter"
 }
+
+/* repeat(auto-fit, minmax(250px, 1fr)); (media query - mobile and monitor) */
 
 .stories-grid{
   display: grid;
@@ -345,6 +371,10 @@
 
 .banner img {
   width: 100%;
+}
+
+.banner p{
+  font-family: "Nunito Sans";
 }
 
 #banner-text{
@@ -403,11 +433,12 @@
   font-weight: bold;
   color:var(--primary);
   font-size: 4.60rem;
+  font-family: "Nunito Sans"
 }
 
 #sport-events-subtitle{
   padding-bottom: 40px;
-  
+    font-family: "inter"
 }
 
 .events-grid{
